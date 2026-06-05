@@ -1,4 +1,4 @@
 packages:
-  - name: codeberg.org/ziglang/zig@0.15.2
+  - name: codeberg.org/ziglang/zig@0.16.0
   - name: codeberg.org/ziglang/zig
     version: 0.14.0

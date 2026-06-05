@@ -1,13 +1,11 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/registry.json
 packages:
   - type: http
-    repo_owner: codeberg.org
-    repo_name: ziglang
+    name: codeberg.org/ziglang/zig
     aliases:
       - name: ziglang/zig
     description: General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
     link: https://ziglang.org/
-    version_source: github_tag
     version_constraint: "false"
     version_overrides:
       - version_constraint: Version contains "-dev"
